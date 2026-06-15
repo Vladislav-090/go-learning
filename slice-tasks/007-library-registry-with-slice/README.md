@@ -6,24 +6,45 @@ Create a library registry that stores books using a slice.
 
 ## Concepts
 
-- Interfaces
-- Structs
-- Methods
-- Slices
-- append
-- range
-- len
-- Update item
-- Delete item
-- Duplicate Check
+* Interfaces
+* Structs
+* Methods
+* Slices
+* append
+* range
+* len
+* Update item
+* Delete item
+* Duplicate Check
 
 ## What I Learned
 
-- A slice can be used to store a collection of books.
-- New books can be added using `append`.
-- Duplicate books can be prevented.
-- Books can be updated by index.
-- Books can be deleted using:
+* A slice can be used to store a collection of books.
+* New books can be added using `append`.
+* Duplicate books can be prevented.
+* Books can be updated by index.
+* Books can be deleted using:
 
 ```go
 append(slice[:i], slice[i+1:]...)
+```
+
+* `range` can be used to iterate through all books.
+* `len` returns the number of books in the library.
+* Interfaces can be used to work with different implementations.
+
+## Features
+
+* Add a new book
+* Delete a book
+* Update book title
+* View all books
+* Get books count
+* Get library name
+* Prevent duplicate books
+
+## Run
+
+```bash
+go run main.go
+```
