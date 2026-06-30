@@ -4,14 +4,21 @@ This repository contains my practical Go learning tasks and exercises.
 
 The goal of this repository is to refresh and strengthen my backend development skills through hands-on coding practice.
 
+I focus on writing code manually, understanding every line, and building a strong foundation before moving to real backend projects.
+
 ## Topics Covered
 
 * Structs
-* Methods
+* Methods and receivers
 * Interfaces
 * Slices
 * Maps
-* Error Handling
+* Error handling
+* JSON
+* HTTP
+* REST API basics
+* PostgreSQL basics
+* Backend project structure
 
 ## Repository Structure
 
@@ -21,42 +28,55 @@ The goal of this repository is to refresh and strengthen my backend development 
 * `slice-tasks` — slice operations and algorithms
 * `map-tasks` — maps, registries, and collections
 * `error-tasks` — error handling and validation
+* `jsons-tasks` — JSON encoding, decoding, and struct tags
+* `http-tasks` — HTTP handlers and simple web server logic
 
 Each task contains a separate README describing the goal, concepts, and lessons learned.
 
 ## Purpose
 
-This repository serves as a personal learning project where I practice Go fundamentals by writing code manually and solving small focused tasks.
+This repository serves as my personal Go learning foundation.
 
-The objective is to build a strong foundation before moving to more advanced backend topics such as:
+The main objective is not just to collect tasks, but to build real understanding of Go syntax, data structures, functions, methods, error handling, JSON processing, and HTTP basics.
 
-* JSON processing
-* HTTP servers
-* REST APIs
-* PostgreSQL
-* Concurrency
-* Microservices
+This foundation is used later in backend projects with PostgreSQL, REST APIs, and real project structure.
+
+## Learning Approach
+
+I practice by:
+
+* writing code manually
+* solving small focused tasks
+* explaining the logic step by step
+* committing progress to GitHub
+* reviewing mistakes and fixing them
+* gradually moving from simple exercises to real backend projects
 
 ## Progress
 
 ✅ Structs
-
 ✅ Methods
-
 ✅ Interfaces
-
 ✅ Slices
-
 ✅ Maps
+✅ Error Handling
+✅ JSON
+✅ HTTP basics
+🔄 REST API practice
+🔄 PostgreSQL integration
+🔄 Full backend projects
 
-🔄 Error Handling
+## Related Projects
 
-⏳ JSON
+* `postgres-learning` — PostgreSQL and SQL practice
+* `users-api-postgres` — REST API written in Go with PostgreSQL database
 
-⏳ HTTP
+## Current Focus
 
-⏳ REST API
+I am currently practicing backend development with Go, PostgreSQL, HTTP handlers, JSON requests and responses, and CRUD API structure.
 
-⏳ PostgreSQL
+The next goal is to build several small backend projects to strengthen practical skills and prepare for junior backend developer tasks.
 
-⏳ Concurrency
+## Status
+
+This repository is an active learning project focused on Go fundamentals and backend development basics.
